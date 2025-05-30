@@ -1,0 +1,38 @@
+body {
+  font-family: Verdana,sans-serif;
+  background-color:#b3f891;
+  color: #070808;
+}
+
+header,footer {
+  background-color: #9e0e00;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  }
+  nav {
+    background-color: #980000
+    padding:10px;
+    text-align: center;
+    }
+  nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    main {
+      padding: 20px;
+    }
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+    }
+    .gallery img {
+        width: 300px;
+        height: auto;
+        border: 3px solid #cc0000;
+        border-radius: 5px;
+}
